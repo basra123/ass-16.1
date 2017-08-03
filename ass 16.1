@@ -1,0 +1,21 @@
+
+BMI<-function(w,h){w/(h)^2}
+a<-BMI(70,1.802)
+a
+if(a < 15){
+  print("Very severly underweight")
+}else if(a>15 & a<16){
+    print("Severly underweight")
+}else if(a>16 & a<18.5){
+  print("Underweight")
+}else if(a>18.5 & a<25){
+  print("Normal(healthy weight)")
+}else if(a>25 & a<30){
+  print("Overweight")
+}else if(a>30 & a<35){
+  print("Obese Class 1 (Moderately obese)")
+}else if(a>35 & a<40){
+  print("Obese class 2 (severly obese)")
+}else{
+  print("Obese class 3 (Very severly obese)")
+}
